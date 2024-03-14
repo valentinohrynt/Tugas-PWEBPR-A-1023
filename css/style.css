@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   background-color: #d9d9d9;
-  padding: 1rem 7%;
+  padding: 16px 7%;
   position: fixed;
   top: 0;
   left: 0;
@@ -13,10 +13,10 @@
 .navbar a {
   font-family: "Poppins";
   color: black;
-  display: inline-block;
-  font-size: 1rem;
-  margin: 0 0.5rem;
+  font-size: 15px;
+  margin: 0 1.3rem;
   text-decoration: none;
+  text-align: center;
 }
 
 .title {
