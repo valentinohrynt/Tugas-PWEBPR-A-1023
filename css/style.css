@@ -727,7 +727,9 @@
     margin: 0 8px;
   }
   .title {
-    margin-bottom: 10px;
+    height: 100px;
+    margin-top: 0;
+    margin-bottom: 65px;
     font-size: 32px;
   }
   .container .content {
