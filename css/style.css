@@ -78,6 +78,8 @@
   flex-direction: column;
   justify-content: top;
   margin-bottom: 3%;
+  position: relative;
+  top: -10px;
 }
 
 .container
@@ -99,6 +101,7 @@
   .rectangle-tentara
   .text-button-container-tentara
   .subtitle-tentara {
+  margin-top: 0;
   margin-bottom: 15%;
   font-family: "Poppins";
   font-size: 14px;
@@ -367,7 +370,7 @@
   .frame-dalam-content-kanan-atas
   .dokter
   .container-title-button-dokter {
-  margin-top: 20.8px;
+  margin-top: 10px;
   width: 238.4px;
 }
 .container
@@ -444,7 +447,7 @@
   .frame-dalam-content-kanan-atas
   .pilot
   .container-title-button-pilot {
-  margin-top: 20.8px;
+  margin-top: 10px;
   width: 238.4px;
 }
 .container
@@ -521,7 +524,7 @@
   .frame-dalam-content-kanan-atas
   .ilmuan
   .container-title-button-ilmuan {
-  margin-top: 20.8px;
+  margin-top: 10px;
   width: 238.4px;
 }
 .container
