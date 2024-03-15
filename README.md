@@ -3,4 +3,4 @@
 **_saya doakan anda akan segera kehilangan waktu untuk melanjutkan hidup di bumi ini. Sekian, mohon diperhatikan._**
 **_(intinya saya tidak mendukung perbuatan mencontek anda ataupun memberi anda jalan untuk mencontek, karena seorang pencontek pengecut seperti anda selalu saja menemukan jalan licik dan haram untuk menemukan repository - repository milik teman - teman anda)_**
 
-**Bulan Ramadhan, kurang - kurangi nyontek bro/sis!**
+**Bulan Ramadhan, kurang - kurangi nyontek bahkan coppas bro/sis!**
