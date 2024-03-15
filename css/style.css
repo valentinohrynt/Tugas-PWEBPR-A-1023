@@ -1031,7 +1031,15 @@
     height: 213px;
     margin: 0;
   }
-
+  .container
+  .content
+  .content-kanan
+  .frame-luar-content-kanan-atas
+  .frame-dalam-content-kanan-atas
+  .dokter
+  .container-title-button-dokter{
+    margin-top: 20px;
+  }
   .container
     .content
     .content-kanan
@@ -1101,6 +1109,15 @@
     margin: 0;
   }
   .container
+  .content
+  .content-kanan
+  .frame-luar-content-kanan-atas
+  .frame-dalam-content-kanan-atas
+  .pilot
+  .container-title-button-pilot{
+    margin-top: 20px;
+  }
+  .container
     .content
     .content-kanan
     .frame-luar-content-kanan-atas
@@ -1168,7 +1185,15 @@
     height: 213px;
     margin: 0;
   }
-
+  .container
+  .content
+  .content-kanan
+  .frame-luar-content-kanan-atas
+  .frame-dalam-content-kanan-atas
+  .ilmuan
+  .container-title-button-ilmuan{
+    margin-top: 20px;
+  }
   .container
     .content
     .content-kanan
@@ -1218,6 +1243,7 @@
     width: auto;
     height: auto;
     background-color: transparent;
+    padding-bottom: 75px;
   }
   .container
     .content
@@ -1380,3 +1406,5 @@
     top: -100%;
   }
 }
+
+/* this code belong to valentinohrynt at github.com */
