@@ -39,24 +39,23 @@
   flex-direction: column;
 }
 
-.container .content {
+.content {
   justify-content: center;
   display: flex;
   flex-direction: row;
 }
 
-.container .content .content-kiri {
+.content-kiri {
   margin-right: 2%;
 }
-
-.container .content .content-kiri .tentara {
+.tentara {
   width: 490px;
   height: 180px;
   flex-direction: row;
   align-items: flex-end;
 }
 
-.container .content .content-kiri .tentara .rectangle-tentara {
+.rectangle-tentara {
   background-color: #d5ffdd;
   width: 490px;
   height: 180px;
@@ -65,17 +64,12 @@
   display: flex;
 }
 
-.container .content .content-kiri .tentara .rectangle-tentara .image-tentara {
+.image-tentara {
   width: 230px;
   height: auto;
 }
 
-.container
-  .content
-  .content-kiri
-  .tentara
-  .rectangle-tentara
-  .text-button-container-tentara {
+.text-button-container-tentara {
   display: flex;
   flex-direction: column;
   justify-content: top;
@@ -84,36 +78,18 @@
   top: -10px;
 }
 
-.container
-  .content
-  .content-kiri
-  .tentara
-  .rectangle-tentara
-  .text-button-container-tentara
-  .title-tentara {
+.title-tentara {
   margin: 0;
   font-size: 32px;
 }
 
-.container
-  .content
-  .content-kiri
-  .tentara
-  .rectangle-tentara
-  .text-button-container-tentara
-  .subtitle-tentara {
+.subtitle-tentara {
   margin-top: 0;
   margin-bottom: 15%;
   font-size: 14px;
 }
 
-.container
-  .content
-  .content-kiri
-  .tentara
-  .rectangle-tentara
-  .text-button-container-tentara
-  .button-tentara {
+.button-tentara {
   background-color: #399349;
   border-radius: 15px;
   width: 240px;
@@ -128,7 +104,7 @@
   cursor: pointer;
 }
 
-.container .content .content-kiri .content-kiri-bawah {
+.content-kiri-bawah {
   margin-top: 6.6%;
   display: flex;
   flex-direction: row;
@@ -136,12 +112,7 @@
   justify-content: space-between;
 }
 
-.container
-  .content
-  .content-kiri
-  .content-kiri-bawah
-  .content-kiri-bawah-1
-  .topi-kuning {
+.topi-kuning {
   background-color: #fff4dc;
   border-radius: 20px;
   width: 235px;
@@ -151,24 +122,12 @@
   align-items: flex-end;
 }
 
-.container
-  .content
-  .content-kiri
-  .content-kiri-bawah
-  .content-kiri-bawah-1
-  .topi-kuning
-  .image-topi-kuning {
+.image-topi-kuning {
   width: 173.7px;
   height: 170px;
 }
 
-.container
-  .content
-  .content-kiri
-  .content-kiri-bawah
-  .content-kiri-bawah-1
-  .topi-kuning
-  .button-topi-kuning {
+.button-topi-kuning {
   background-color: #e29a00;
   width: 173px;
   height: 37px;
@@ -184,12 +143,7 @@
   margin-bottom: 0.7%;
 }
 
-.container
-  .content
-  .content-kiri
-  .content-kiri-bawah
-  .content-kiri-bawah-1
-  .pramugari-pink {
+.pramugari-pink {
   background-color: #ffced7;
   margin-top: 10%;
   border-radius: 20px;
@@ -200,24 +154,12 @@
   align-items: flex-end;
 }
 
-.container
-  .content
-  .content-kiri
-  .content-kiri-bawah
-  .content-kiri-bawah-1
-  .pramugari-pink
-  .image-pramugari-pink {
+.image-pramugari-pink {
   width: 173.7px;
   height: 170px;
 }
 
-.container
-  .content
-  .content-kiri
-  .content-kiri-bawah
-  .content-kiri-bawah-1
-  .pramugari-pink
-  .button-pramugari-pink {
+.button-pramugari-pink {
   background-color: #ff5573;
   width: 173px;
   height: 37px;
@@ -233,7 +175,7 @@
   margin-bottom: 0.7%;
 }
 
-.container .content .content-kiri .content-kiri-bawah .fotografer {
+.fotografer {
   background-color: #e2f2ff;
   border-radius: 20px;
   width: 230px;
@@ -244,56 +186,30 @@
   justify-content: center;
 }
 
-.container
-  .content
-  .content-kiri
-  .content-kiri-bawah
-  .fotografer
-  .image-fotografer {
+.image-fotografer {
   border-radius: 20px;
   width: 160px;
   height: 160px;
 }
-.container
-  .content
-  .content-kiri
-  .content-kiri-bawah
-  .fotografer
-  .text-button-container-fotografer {
+
+.text-button-container-fotografer {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container
-  .content
-  .content-kiri
-  .content-kiri-bawah
-  .fotografer
-  .text-button-container-fotografer
-  .title-fotografer {
+
+.title-fotografer {
   font-size: 20px;
   margin-bottom: 0;
 }
 
-.container
-  .content
-  .content-kiri
-  .content-kiri-bawah
-  .fotografer
-  .text-button-container-fotografer
-  .subtitle-fotografer {
+.subtitle-fotografer {
   font-size: 12px;
   width: 133px;
   text-align: center;
 }
 
-.container
-  .content
-  .content-kiri
-  .content-kiri-bawah
-  .fotografer
-  .text-button-container-fotografer
-  .button-fotografer {
+.button-fotografer {
   background-color: #3279af;
   width: 173px;
   height: 37px;
@@ -307,34 +223,30 @@
   cursor: pointer;
 }
 
-.container .content .content-kanan {
+.content-kanan {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
 }
-.container .content .content-kanan .frame-luar-content-kanan-atas {
+
+.frame-luar-content-kanan-atas {
   background-color: #f4f4f4;
   width: 500px;
   height: 392px;
   border-radius: 20px;
 }
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas {
+
+.frame-dalam-content-kanan-atas {
   margin: 34px;
   row-gap: 18px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas
-  .dokter {
+
+.dokter,
+.pilot,
+.ilmuan {
   width: 423px;
   height: 96px;
   display: flex;
@@ -343,13 +255,10 @@
   background-color: #ffffff;
   border-radius: 20px;
 }
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas
-  .dokter
-  .image-dokter {
+
+.image-dokter,
+.image-pilot,
+.image-ilmuan {
   margin-left: 5%;
   margin-right: 9.6px;
   width: 70px;
@@ -357,38 +266,27 @@
   object-fit: cover;
   vertical-align: top;
 }
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas
-  .dokter
-  .container-title-button-dokter {
+
+.container-title-button-dokter,
+.container-title-button-pilot,
+.container-title-button-ilmuan {
   margin-top: 10px;
   width: 238.4px;
 }
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas
-  .dokter
-  .container-title-button-dokter
-  .title-dokter {
+
+.title-dokter,
+.title-pilot,
+.title-ilmuan {
   margin: 1%;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.5;
   color: #000000;
 }
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas
-  .dokter
-  .container-title-button-dokter
-  .button-dokter {
+
+.button-dokter,
+.button-pilot,
+.button-ilmuan {
   width: 149px;
   height: 22px;
   cursor: pointer;
@@ -404,223 +302,49 @@
   border: none;
 }
 
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas
-  .pilot {
-  width: 423px;
-  height: 96px;
-  display: flex;
-  align-items: center;
-  border: solid 1.6px #d8d6c1;
-  background-color: #ffffff;
-  border-radius: 20px;
-}
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas
-  .pilot
-  .image-pilot {
-  margin-left: 5%;
-  margin-right: 9.6px;
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  vertical-align: top;
-}
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas
-  .pilot
-  .container-title-button-pilot {
-  margin-top: 10px;
-  width: 238.4px;
-}
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas
-  .pilot
-  .container-title-button-pilot
-  .title-pilot {
-  margin: 1%;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #000000;
-}
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas
-  .pilot
-  .container-title-button-pilot
-  .button-pilot {
-  width: 149px;
-  height: 22px;
-  cursor: pointer;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  background-color: #d8d6c1;
-  border-radius: 10px;
-  border: none;
-}
-
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas
-  .ilmuan {
-  width: 423px;
-  height: 96px;
-  display: flex;
-  align-items: center;
-  border: solid 1.6px #d8d6c1;
-  background-color: #ffffff;
-  border-radius: 20px;
-}
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas
-  .ilmuan
-  .image-ilmuan {
-  margin-left: 5%;
-  margin-right: 9.6px;
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  vertical-align: top;
-}
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas
-  .ilmuan
-  .container-title-button-ilmuan {
-  margin-top: 10px;
-  width: 238.4px;
-}
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas
-  .ilmuan
-  .container-title-button-ilmuan
-  .title-ilmuan {
-  margin: 1%;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #000000;
-}
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-atas
-  .frame-dalam-content-kanan-atas
-  .ilmuan
-  .container-title-button-ilmuan
-  .button-ilmuan {
-  width: 149px;
-  height: 22px;
-  cursor: pointer;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  background-color: #d8d6c1;
-  border-radius: 10px;
-  border: none;
-}
-
-.container .content .content-kanan .frame-luar-content-kanan-bawah {
+.frame-luar-content-kanan-bawah {
   width: 500px;
   height: 181px;
   background-color: #f2f2f2;
   border-radius: 20px;
   margin-top: 0.6%;
 }
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-bawah
-  .frame-dalam-content-kanan-bawah {
+
+.frame-dalam-content-kanan-bawah {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
 }
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-bawah
-  .frame-dalam-content-kanan-bawah
-  .pembalap {
+
+.pembalap,
+.astronout {
   display: flex;
   align-items: center;
 }
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-bawah
-  .frame-dalam-content-kanan-bawah
-  .pembalap
-  .image-pembalap {
+
+.image-pembalap,
+.image-astronout {
   width: 120px;
   height: 120px;
 }
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-bawah
-  .frame-dalam-content-kanan-bawah
-  .pembalap
-  .container-title-button-pembalap {
+
+.container-title-button-pembalap,
+.container-title-button-astronout {
   width: 125px;
 }
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-bawah
-  .frame-dalam-content-kanan-bawah
-  .pembalap
-  .container-title-button-pembalap
-  .title-pembalap {
+
+.title-pembalap,
+.title-astronout {
   margin-bottom: 14.4px;
   font-size: 15px;
   font-weight: 500;
   line-height: 1.5;
   color: #000000;
 }
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-bawah
-  .frame-dalam-content-kanan-bawah
-  .pembalap
-  .container-title-button-pembalap
-  .button-pembalap {
+
+.button-pembalap,
+.button-astronout {
   width: 100px;
   height: 55px;
   cursor: pointer;
@@ -629,73 +353,6 @@
   font-weight: 500;
   line-height: 1.5;
   color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #d8d6c1;
-  border-radius: 10px;
-  border: none;
-}
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-bawah
-  .frame-dalam-content-kanan-bawah
-  .astronout {
-  display: flex;
-  align-items: center;
-}
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-bawah
-  .frame-dalam-content-kanan-bawah
-  .astronout
-  .image-astronout {
-  width: 120px;
-  height: 120px;
-}
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-bawah
-  .frame-dalam-content-kanan-bawah
-  .astronout
-  .container-title-button-astronout {
-  width: 125px;
-}
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-bawah
-  .frame-dalam-content-kanan-bawah
-  .astronout
-  .container-title-button-astronout
-  .title-astronout {
-  margin-bottom: 14.4px;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #000000;
-  white-space: nowrap;
-}
-.container
-  .content
-  .content-kanan
-  .frame-luar-content-kanan-bawah
-  .frame-dalam-content-kanan-bawah
-  .astronout
-  .container-title-button-astronout
-  .button-astronout {
-  width: 100px;
-  height: 55px;
-  cursor: pointer;
-  text-align: center;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #ffffff;
-  white-space: nowrap;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -710,46 +367,50 @@
     top: auto;
     bottom: 0;
   }
+
   .navbar a {
     margin: 0 8px;
   }
+
   .title {
     height: 100px;
     margin-top: 0;
     margin-bottom: 65px;
     font-size: 32px;
   }
-  .container .content {
+
+  .content {
     flex-direction: column;
     align-items: center;
     row-gap: 30px;
   }
 
-  .container .content .content-kiri {
+  .content-kiri {
     display: flex;
     flex-direction: column;
     margin: 0;
   }
 
-  .container .content .content-kiri .content-kiri-bawah {
+  .content-kiri-bawah {
     display: flex;
     align-items: center;
   }
-  .container .content .content-kiri .tentara {
+
+  .tentara {
     width: 289px;
     height: 299px;
     flex-direction: column;
     align-items: flex-end;
   }
 
-  .container .content .content-kiri .tentara .rectangle-tentara {
+  .rectangle-tentara {
     flex-direction: column;
     width: 289px;
     height: 299px;
     align-items: center;
   }
 
-  .container .content .content-kiri .tentara .rectangle-tentara .image-tentara {
+  .image-tentara {
     width: 230px;
     height: 230px;
     align-items: center;
@@ -757,22 +418,11 @@
     margin-top: -18%;
   }
 
-  .container
-    .content
-    .content-kiri
-    .tentara
-    .rectangle-tentara
-    .text-button-container-tentara {
+  .text-button-container-tentara {
     align-items: center;
   }
 
-  .container
-    .content
-    .content-kiri
-    .tentara
-    .rectangle-tentara
-    .text-button-container-tentara
-    .title-tentara {
+  .title-tentara {
     position: relative;
     font-size: 24px;
     top: 14px;
@@ -780,41 +430,26 @@
     margin-bottom: 0;
   }
 
-  .container
-    .content
-    .content-kiri
-    .tentara
-    .rectangle-tentara
-    .text-button-container-tentara
-    .subtitle-tentara {
+  .subtitle-tentara {
     position: relative;
     top: 18px;
     margin-top: 0;
   }
 
-  .container
-    .content
-    .content-kiri
-    .tentara
-    .rectangle-tentara
-    .text-button-container-tentara
-    .button-tentara {
+  .button-tentara {
     width: 212.41px;
     height: 45.43;
     margin-top: -53.5%;
   }
 
-  .container .content .content-kiri .content-kiri-bawah {
+  .content-kiri-bawah {
     margin: 10%;
     flex-direction: column;
     row-gap: 30px;
   }
-  .container
-    .content
-    .content-kiri
-    .content-kiri-bawah
-    .content-kiri-bawah-1
-    .topi-kuning {
+
+  .topi-kuning,
+  .pramugari-pink {
     border-radius: 20px;
     width: 288.53px;
     height: 221px;
@@ -823,77 +458,27 @@
     align-items: flex-end;
   }
 
-  .container
-    .content
-    .content-kiri
-    .content-kiri-bawah
-    .content-kiri-bawah-1
-    .topi-kuning
-    .image-topi-kuning {
+  .image-topi-kuning,
+  .image-pramugari-pink {
     position: relative;
     bottom: -0.8%;
     width: 213.26px;
     height: 208.72px;
   }
 
-  .container
-    .content
-    .content-kiri
-    .content-kiri-bawah
-    .content-kiri-bawah-1
-    .topi-kuning
-    .button-topi-kuning {
+  .button-topi-kuning,
+  .button-pramugari-pink {
     width: 212.41px;
     height: 45.43px;
     font-weight: 500;
     margin-bottom: 10px;
   }
 
-  .container
-    .content
-    .content-kiri
-    .content-kiri-bawah
-    .content-kiri-bawah-1
-    .pramugari-pink {
-    border-radius: 20px;
-    width: 288.53px;
-    height: 221px;
-    justify-content: center;
-    display: flex;
-    align-items: flex-end;
-  }
-
-  .container
-    .content
-    .content-kiri
-    .content-kiri-bawah
-    .content-kiri-bawah-1
-    .pramugari-pink
-    .image-pramugari-pink {
-    position: relative;
-    bottom: -0.8%;
-    width: 213.26px;
-    height: 208.72px;
-  }
-
-  .container
-    .content
-    .content-kiri
-    .content-kiri-bawah
-    .content-kiri-bawah-1
-    .pramugari-pink
-    .button-pramugari-pink {
-    width: 212.41px;
-    height: 45.43px;
-    font-weight: 500;
-    margin-bottom: 10px;
-  }
-
-  .container .content .content-kiri .content-kiri-bawah {
+  .content-kiri-bawah {
     display: flex;
   }
 
-  .container .content .content-kiri .content-kiri-bawah .fotografer {
+  .fotografer {
     margin-top: 10%;
     width: 289px;
     height: 314px;
@@ -902,49 +487,27 @@
     justify-content: flex-start;
   }
 
-  .container
-    .content
-    .content-kiri
-    .content-kiri-bawah
-    .fotografer
-    .image-fotografer {
+  .image-fotografer {
     border-radius: 20px;
     width: 230px;
     height: 230px;
     margin-top: -12%;
   }
 
-  .container
-    .content
-    .content-kiri
-    .content-kiri-bawah
-    .fotografer
-    .text-button-container-fotografer {
+  .text-button-container-fotografer {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .container
-    .content
-    .content-kiri
-    .content-kiri-bawah
-    .fotografer
-    .text-button-container-fotografer
-    .title-fotografer {
+  .title-fotografer {
     position: relative;
     font-size: 24px;
     top: 2px;
     margin-bottom: 0px;
   }
 
-  .container
-    .content
-    .content-kiri
-    .content-kiri-bawah
-    .fotografer
-    .text-button-container-fotografer
-    .subtitle-fotografer {
+  .subtitle-fotografer {
     position: relative;
     top: 6px;
     margin-top: 0;
@@ -953,20 +516,13 @@
     text-align: center;
   }
 
-  .container
-    .content
-    .content-kiri
-    .content-kiri-bawah
-    .fotografer
-    .text-button-container-fotografer
-    .button-fotografer {
-    /* position: absolute; */
+  .button-fotografer {
     width: 212.41px;
     height: 45.43px;
     margin-top: -63.5%;
   }
 
-  .container .content .content-kanan .frame-luar-content-kanan-atas {
+  .frame-luar-content-kanan-atas {
     margin-top: -18%;
     background: transparent;
     width: auto;
@@ -976,20 +532,13 @@
     row-gap: 30px;
   }
 
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas {
+  .frame-dalam-content-kanan-atas {
     row-gap: 30px;
   }
 
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas
-    .dokter {
+  .dokter,
+  .pilot,
+  .ilmuan {
     border: none;
     border-radius: 20px;
     width: 288.53px;
@@ -1000,235 +549,62 @@
     width: 288.53px;
     height: 221px;
   }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas
-    .dokter
-    .image-dokter {
+
+  .image-dokter,
+  .image-pilot,
+  .image-ilmuan {
     position: relative;
     bottom: -4.5%;
     width: 213px;
     height: 213px;
     margin: 0;
   }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas
-    .dokter
-    .container-title-button-dokter {
+
+  .container-title-button-dokter,
+  .container-title-button-pilot,
+  .container-title-button-ilmuan {
     margin-top: 20px;
   }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas
-    .dokter
-    .container-title-button-dokter
-    .title-dokter {
+
+  .title-dokter,
+  .title-pilot,
+  .title-ilmuan {
     position: absolute;
     font-size: 0px;
     color: transparent;
     width: 0px;
     height: 0px;
   }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas
-    .dokter
-    .container-title-button-dokter
-    .button-dokter {
+
+  .button-dokter,
+  .button-pilot,
+  .button-ilmuan {
     align-items: center;
     width: 212.41px;
     height: 45.43px;
     background-color: #cac8b3;
     border-radius: 15px;
     border: none;
-    text-align: center;
     color: #ffffff;
-    white-space: nowrap;
-    font-weight: 500;
     font-size: 20px;
-    cursor: pointer;
-    position: relative;
-    top: -145%;
-    left: 5%;
-  }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas
-    .pilot {
-    border: none;
-    border-radius: 20px;
-    width: 288.53px;
-    height: 221px;
-    display: flex;
-    flex-direction: column;
-    background: #e9e8e2;
-    width: 288.53px;
-    height: 221px;
-  }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas
-    .pilot
-    .image-pilot {
-    position: relative;
-    bottom: -4.5%;
-    width: 213px;
-    height: 213px;
-    margin: 0;
-  }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas
-    .pilot
-    .container-title-button-pilot {
-    margin-top: 20px;
-  }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas
-    .pilot
-    .container-title-button-pilot
-    .title-pilot {
-    position: absolute;
-    font-size: 0px;
-    color: transparent;
-    width: 0px;
-    height: 0px;
-  }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas
-    .pilot
-    .container-title-button-pilot
-    .button-pilot {
-    align-items: center;
-    width: 212.41px;
-    height: 45.43px;
-    background-color: #cac8b3;
-    border-radius: 15px;
-    border: none;
-    text-align: center;
-    color: #ffffff;
-    white-space: nowrap;
-    font-weight: 500;
-    font-size: 20px;
-    cursor: pointer;
-    position: relative;
-    top: -145%;
-    left: 5%;
-  }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas
-    .ilmuan {
-    border: none;
-    border-radius: 20px;
-    width: 288.53px;
-    height: 221px;
-    display: flex;
-    flex-direction: column;
-    background: #e9e8e2;
-    width: 288.53px;
-    height: 221px;
-  }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas
-    .ilmuan
-    .image-ilmuan {
-    position: relative;
-    bottom: -4.5%;
-    width: 213px;
-    height: 213px;
-    margin: 0;
-  }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas
-    .ilmuan
-    .container-title-button-ilmuan {
-    margin-top: 20px;
-  }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas
-    .ilmuan
-    .container-title-button-ilmuan
-    .title-ilmuan {
-    position: absolute;
-    font-size: 0px;
-    color: transparent;
-    width: 0px;
-    height: 0px;
-  }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-atas
-    .frame-dalam-content-kanan-atas
-    .ilmuan
-    .container-title-button-ilmuan
-    .button-ilmuan {
-    align-items: center;
-    width: 212.41px;
-    height: 45.43px;
-    background-color: #cac8b3;
-    border-radius: 15px;
-    border: none;
-    text-align: center;
-    color: #ffffff;
-    white-space: nowrap;
-    font-weight: 500;
-    font-size: 20px;
-    cursor: pointer;
     position: relative;
     top: -145%;
     left: 5%;
   }
 
-  .container .content .content-kanan {
+  .content-kanan {
     row-gap: 0;
   }
 
-  .container .content .content-kanan .frame-luar-content-kanan-bawah {
+  .frame-luar-content-kanan-bawah {
     margin-top: -1.5%;
     width: auto;
     height: auto;
     background-color: transparent;
     padding-bottom: 75px;
   }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-bawah
-    .frame-dalam-content-kanan-bawah {
+
+  .frame-dalam-content-kanan-bawah {
     width: auto;
     height: auto;
     display: flex;
@@ -1236,12 +612,8 @@
     row-gap: 30px;
     align-items: center;
   }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-bawah
-    .frame-dalam-content-kanan-bawah
-    .pembalap {
+
+  .pembalap {
     background: #ffdbc5;
     display: flex;
     flex-direction: column;
@@ -1250,71 +622,41 @@
     width: 288.53px;
     height: 221px;
   }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-bawah
-    .frame-dalam-content-kanan-bawah
-    .pembalap
-    .image-pembalap {
+
+  .image-pembalap,
+  .image-astronout {
     position: relative;
     bottom: -5%;
     width: 213px;
     height: 213px;
     margin: 0;
   }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-bawah
-    .frame-dalam-content-kanan-bawah
-    .pembalap
-    .container-title-button-pembalap {
+
+  .container-title-button-pembalap,
+  .container-title-button-astronout {
     width: auto;
   }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-bawah
-    .frame-dalam-content-kanan-bawah
-    .pembalap
-    .container-title-button-pembalap
-    .title-pembalap {
+
+  .title-pembalap,
+  .title-astronout {
     margin-bottom: 0px;
     font-size: 0px;
     font-weight: 0px;
     line-height: 0px;
     color: transparent;
   }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-bawah
-    .frame-dalam-content-kanan-bawah
-    .pembalap
-    .container-title-button-pembalap
-    .button-pembalap {
-    align-items: center;
+
+  .button-pembalap {
     width: 212.41px;
     height: 45.43px;
     background-color: #e36415;
     border-radius: 15px;
-    border: none;
-    text-align: center;
-    color: #ffffff;
-    white-space: nowrap;
-    font-weight: 500;
     font-size: 20px;
-    cursor: pointer;
     position: relative;
     top: -100%;
   }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-bawah
-    .frame-dalam-content-kanan-bawah
-    .astronout {
+
+  .astronout {
     background: #8fc5ed;
     display: flex;
     flex-direction: column;
@@ -1323,65 +665,15 @@
     width: 288.53px;
     height: 221px;
   }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-bawah
-    .frame-dalam-content-kanan-bawah
-    .astronout
-    .image-astronout {
-    position: relative;
-    bottom: -5%;
-    width: 213px;
-    height: 213px;
-    margin: 0;
-  }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-bawah
-    .frame-dalam-content-kanan-bawah
-    .astronout
-    .container-title-button-astronout {
-    width: auto;
-  }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-bawah
-    .frame-dalam-content-kanan-bawah
-    .astronout
-    .container-title-button-astronout
-    .title-astronout {
-    margin-bottom: 0px;
-    font-size: 0px;
-    font-weight: 0px;
-    line-height: 0px;
-    color: transparent;
-  }
-  .container
-    .content
-    .content-kanan
-    .frame-luar-content-kanan-bawah
-    .frame-dalam-content-kanan-bawah
-    .astronout
-    .container-title-button-astronout
-    .button-astronout {
-    align-items: center;
+
+  .button-astronout {
     width: 212.41px;
     height: 45.43px;
     background-color: #275e87;
     border-radius: 15px;
-    border: none;
-    text-align: center;
-    color: #ffffff;
-    white-space: nowrap;
-    font-weight: 500;
     font-size: 20px;
-    cursor: pointer;
     position: relative;
     top: -100%;
   }
 }
-
 /* this code belong to valentinohrynt at github.com */
